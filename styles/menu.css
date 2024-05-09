@@ -1,0 +1,98 @@
+:root {
+  --rojo: #f14948;
+  --rojo_tenue: #ffa2a2;
+  --rosa_bebe: #a58f90;
+  --gris: #f4f0ef;
+  --beige: #fcfbfc;
+  --marron_letras: #593433;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--gris);
+}
+
+.titulo-principal {
+  color: var(--marron_letras);
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav {
+  margin: 3vw 10vw;
+  color: var(--rosa_bebe);
+  font-weight: bold;
+  .nav-lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    li {
+      font-size: large;
+      margin-right: 3vw;
+      padding: 0.1vw 0.8vw;
+    }
+    li:hover {
+      background-color: #f14948;
+      color: white;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.activado {
+  background-color: #f14948;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contenedor {
+  margin: 5vw 15vw;
+}
+
+.lista-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  .card {
+    color: var(--marron_letras);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 16vw;
+    img {
+      object-fit: cover;
+      width: 8vw;
+      height: 8vw;
+      border-radius: 50%;
+    }
+    .card-text {
+      margin-bottom: 1vw;
+      h5 {
+        font-size: large;
+        margin-bottom: 1vw;
+      }
+      p {
+        margin: 0 2vw;
+        font-size: small;
+      }
+    }
+    .card-price {
+      background-color: var(--rojo);
+      color: white;
+      font-weight: bold;
+      padding: 0.3vw 1vw;
+      border-radius: 15px;
+      border: none;
+    }
+  }
+}
