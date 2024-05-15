@@ -67,6 +67,7 @@ body {
     padding-bottom: 15px;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(71, 45, 15, 0.103);
     text-align: center;
     max-width: 16vw;
     img {

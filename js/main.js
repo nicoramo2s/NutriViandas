@@ -8,7 +8,7 @@ const comidas = [
     urlImagen:
       "https://imgs.search.brave.com/kJ79kW-75V4KfeNYlgHUPIZ2nGidu87A5kljNQ9201w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dGFzdGVvZmhvbWUu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzAxL0NyaXNw/eS1CdWZmYWxvLUNo/aWNrZW4tUm9sbC1V/cHNfZXhwczEyMjIz/NV9USDE5OTk2MzdB/MDNfMjhfMWJDX1JN/Uy02LmpwZz9maXQ9/NzAwLDcwMA",
     descripcion:
-      "Debitis distinctio molestias maiores, omnis cumque amet minus incidunt voluptates!, Explicabo tenetur voluptatem omnis dolor in, recusandae dignissimos animi unde maxime.",
+      "Experimenta el sabor incomparable del Chicken Crispy Roll: crujiente por fuera, jugoso por dentro. Una delicia que no querrás perderte.",
     precio: 4000,
     diaDeLaSemana: "Lunes",
   },
@@ -18,7 +18,7 @@ const comidas = [
     urlImagen:
       "https://imgs.search.brave.com/fHYC2NFjrlBnnfHZK1fmrEG1a25ecp2njaDHEKenKaI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzk0LzkyLzEw/LzM2MF9GXzk0OTIx/MDUzX0xjMDZ1YWJo/TnRNTlNLcTZINWdC/aFpWRG9JNm5LalhX/LmpwZw",
     descripcion:
-      "Debitis distinctio molestias maiores, omnis cumque amet minus incidunt voluptates!, Explicabo tenetur voluptatem omnis dolor in, recusandae dignissimos animi unde maxime.",
+      "Deléitate con nuestra Burger Clásica: una jugosa hamburguesa de carne premium, acompañada de ingredientes frescos y envuelta en un suave pan de hamburguesa. ¡Revive los sabores clásicos en cada delicioso bocado!",
     precio: 2000,
     diaDeLaSemana: "martes",
   },
@@ -28,7 +28,7 @@ const comidas = [
     urlImagen:
       "https://imgs.search.brave.com/bJZ5LLsurWZi6AUvLzVxob2KT8VrGDL8z253ZioMC8U/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jaGV3/aW5naGFwcGluZXNz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wOC9UYWxs/YXJpbi1Sb2pvLmpw/Zw",
     descripcion:
-      "Debitis distinctio molestias maiores, omnis cumque amet minus incidunt voluptates!, Explicabo tenetur voluptatem omnis dolor in, recusandae dignissimos animi unde maxime.",
+      "Saborea la perfección con nuestros exquisitos tallarines: una experiencia culinaria que combina la suavidad de la pasta fresca con una irresistible salsa casera. Disfruta de la simplicidad y la exquisitez en cada bocado.",
     precio: 3000,
     diaDeLaSemana: "miercoles",
   },
@@ -38,7 +38,7 @@ const comidas = [
     urlImagen:
       "https://imgs.search.brave.com/RWqSFJp5EvTnpMlOTI4DTiCegFC9p6B3eu8h_5MlZj8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0Lzc3LzA2LzQw/LzM2MF9GXzQ3NzA2/NDAxNl9aOW9zOFBq/NVVDaU9pUExIVGZN/eXBzSDNON2RjcGVi/cy5qcGc",
     descripcion:
-      "Debitis distinctio molestias maiores, omnis cumque amet minus incidunt voluptates!, Explicabo tenetur voluptatem omnis dolor in, recusandae dignissimos animi unde maxime.",
+      "Descubre el auténtico sabor del asado parrillero: cortes seleccionados, cocinados a la perfección sobre brasas ardientes. Una experiencia gastronómica inigualable en cada bocado.",
     precio: 6500,
     diaDeLaSemana: "viernes",
   },
