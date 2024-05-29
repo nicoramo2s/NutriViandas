@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriViandas</title>
+    <link rel="stylesheet" href="styles/style-general.css">
+    <link rel="stylesheet" href="styles/style-sobreNosotros.css">
+    <link rel="stylesheet" href="styles/style-PorQueElegirnos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style-testimonios.css">
+</head>
+
+<body>
+    <section class="sobreNosotros">
+        <div class="container">
+            <div class="text">
+                <h1>Sobre nosotros</h1>
+                <p>En NutriViandas, creemos que comer bien no debe ser una tarea difícil. Nuestro objetivo es hacerte la vida más fácil, brindándote la oportunidad de disfrutar de sabores increíbles sin tener que pasar horas en la cocina. Nos encargamos de la planificación, la preparación y la entrega, para que puedas dedicar más tiempo a las cosas que realmente importan en tu vida.</p>
+            </div>
+            <div class="imagen-sobreNosotros">
+                <img src="img/ImagenPlatos.png" alt="Deliciosas viandas">
+            </div>
+        </div>        
+    </section>
+
+    <section class="PorQueElegirnos">
+        <h1>¿Por qué elegirnos?</h1>
+        <div class="contenedor-motivos">
+            <div class="motivo">
+                <div id="icono-contenedor">
+                    <i class="fa-solid fa-bowl-food"></i>
+                </div>
+                <h3>Comida fresca</h3>
+                <p>Ingredientes frescos y de alta calidad en todas nuestras preparaciones</p>
+            </div>
+            <div class="motivo">
+                <div id="icono-contenedor">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <h3>Variedad</h3>
+                <p>Ofrecemos una amplia variedad de platos en nuestro menú semanal</p>
+            </div>
+            <div class="motivo">
+                <div id="icono-contenedor">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <h3>Entrega rápida</h3>
+                <p>Entendemos la importancia de la conveniencia y la puntualidad</p>
+            </div>
+            <div class="motivo">
+                <div id="icono-contenedor">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7195539983054!2d-58.40800082447724!3d-34.585962056560255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9d30abd9cd%3A0x2ffd3bd5cfbdefba!2sPe%C3%B1a%203062%2C%20C1425%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715723607199!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="seccion-testimonios">
+        <div id="recuadro-testimonios">
+            <div id="cuadrado1"></div>
+            <div id="cuadrado2">
+                <h2 id="titulo">Reseñas de nuestros clientes</h2>
+            </div>
+        </div>
+        <div id="testimonios">
+            <div class="carrusel">
+                <div class="contenedor-testimonios">
+
+                    <div class="testimonio">
+                        <div class="cabecera-testimonio">
+                            <div class="icono">
+                                <img class="imagen" src="img/Persona1.jpg" alt="Imagen de cliente">
+                            </div>
+                            <div class="nombre-valoracion-testimonio">
+                                <div class="nombre-testimonio">Julio Ponce</div>
+                                <div class="valoracion-testimonio">★★★★★</div>
+                            </div>
+                        </div>
+                        <div class="texto-testimonio">
+                            "La comida es como hecha en casa y el servicio es buenisimo. Me resolvio un monton."
+                        </div>
+                    </div>
+
+                    <div class="testimonio">
+                        <div class="cabecera-testimonio">
+                            <div class="icono">
+                                <img class="imagen" src="img/Persona2.jpg" alt="Imagen de cliente">
+                            </div>
+                            <div class="nombre-valoracion-testimonio">
+                                <div class="nombre-testimonio">Martin López</div>
+                                <div class="valoracion-testimonio">★★★★</div>
+                            </div>
+                        </div>
+                        <div class="texto-testimonio">
+                            "Buena eleccion para comprar viandas naturales y al paso, variedad de productos con buena
+                            calidad y precios acordes." </div>
+                    </div>
+
+                    <div class="testimonio">
+                        <div class="cabecera-testimonio">
+                            <div class="icono">
+                                <img class="imagen" src="img/Persona3.jpg" alt="Imagen de cliente">
+                            </div>
+                            <div class="nombre-valoracion-testimonio">
+                                <div class="nombre-testimonio">Candela Andrade</div>
+                                <div class="valoracion-testimonio">★★★★</div>
+                            </div>
+                        </div>
+                        <div class="texto-testimonio">
+                            "Tienen gran variedad de comidas, ideal para armarte la vianda natural y sana y comerla
+                            donde quieras. Es una muy buena opción, buen precio."
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="controles">
+                    <span class="punto" onclick="diapositivaActual(1)"></span>
+                    <span class="punto" onclick="diapositivaActual(2)"></span>
+                    <span class="punto" onclick="diapositivaActual(3)"></span>
+                </div>
+            </div>
+
+            <script src="js/main-SobreNosotros.js"></script>
+        </div>
+    </section>
+
+</body>
+
+</html>

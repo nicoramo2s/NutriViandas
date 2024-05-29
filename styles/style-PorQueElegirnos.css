@@ -1,0 +1,134 @@
+.PorQueElegirnos {
+    background-color: #fcfbfc;
+    padding: 2vh;
+    text-align: center;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+}
+
+.PorQueElegirnos h1 {
+    color: #593433;
+    font-size: 3.5em;
+    margin: auto;
+}
+
+.contenedor-motivos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.motivo {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: calc(20% - 40px); 
+    box-sizing: border-box;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; 
+}
+
+#icono-contenedor {
+    width: 5vw;
+    height: 5vw;
+    background-color: #ff4d4d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.icono-contenedor i {
+    color: black;
+    font-size: 1.5vw;
+}
+
+.motivo i {
+    color: #fbfcfc;
+    font-size: 2.5vw;
+}
+
+.motivo h3 {
+    font-size: 1.8rem;
+    color: #ff4d4d;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.motivo p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.motivo iframe {
+    width: 100%;
+    height: 60%;
+    border: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .motivo {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .motivo {
+        width: 36%;
+    }
+
+    .PorQueElegirnos h1 {
+        font-size: 2.5em;
+    }
+
+    .motivo {
+        height: 42vh;
+    }
+    
+    .motivo h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .motivo {
+        width: 50%;
+    }
+
+    #icono-contenedor {
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .motivo {
+        height: 38vh;
+    }
+
+    .motivo i {
+        font-size: 4vw;
+    }
+
+    .motivo h3 {
+        font-size: 1.2rem;
+    }
+
+    .motivo p {
+        font-size: 0.8rem;
+    }
+}

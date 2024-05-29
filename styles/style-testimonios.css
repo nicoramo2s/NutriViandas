@@ -1,0 +1,344 @@
+#seccion-testimonios {
+    height: 100vh;
+    background-color: #fcfbfc;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#testimonios {
+    margin-left: 2vw;
+}
+
+#recuadro-testimonios {
+    position: relative;
+    display: flex;
+    height: 35vw;
+    width: 35vw;
+}
+
+#cuadrado1,
+#cuadrado2 {
+    background: #f14948;
+    width: 35vw;
+    height: 30vw;
+    position: absolute;
+    border-radius: 1vw;
+}
+
+#cuadrado2 {
+    background: #ffebec;
+    left: 1vw;
+    top: 1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#texto {
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: #593433;
+}
+
+h2#titulo {
+    font-size: 3.5em;
+    color: #593433;
+}
+
+
+.carrusel {
+    width: 50vw;
+    height: 25vw;
+    margin: 0 auto;
+    position: relative;
+    align-content: center;
+}
+
+.contenedor-testimonios {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.testimonio {
+    width: 35vw;
+    padding: 2vw;
+    border-radius: 0.8vw;
+    box-shadow: 0 0.2vw 0.4vw rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #fff;
+    display: none;
+}
+
+.cabecera-testimonio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.imagen {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.nombre-valoracion-testimonio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1vw;
+}
+
+.nombre-testimonio {
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.valoracion-testimonio {
+    font-size: 1.6vw;
+    color: #ffc107;
+}
+
+.texto-testimonio {
+    font-size: 1.4vw;
+    line-height: 1.5;
+    margin-top: 1vw;
+}
+
+.controles {
+    position: absolute;
+    bottom: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.punto {
+    height: 0.8vw;
+    width: 0.8vw;
+    background-color: #593433;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.5vw;
+    cursor: pointer;
+}
+
+.activo {
+    background-color: #f14948;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #seccion-testimonios {
+        height: 50vh;
+    }
+
+    #recuadro-testimonios {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #cuadrado1,
+    #cuadrado2 {
+        width: 30vw;
+        height: 25vw;
+        border-radius: 0.8vw;
+    }
+
+    #texto {
+        font-size: 1.8vw;
+    }
+
+    h2#titulo {
+        font-size: 2rem;
+    }
+
+    .carrusel {
+        width: 40vw;
+        height: 20vw;
+    }
+
+    .testimonio {
+        width: 30vw;
+        padding: 1.5vw;
+    }
+
+    .nombre-testimonio {
+        font-size: 1.5vw;
+    }
+
+    .valoracion-testimonio {
+        font-size: 1.4vw;
+    }
+
+    .texto-testimonio {
+        font-size: 1.2vw;
+    }
+
+    .punto {
+        height: 0.6vw;
+        width: 0.6vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #seccion-testimonios {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 4vw;
+    }
+
+    #testimonios {
+        margin-left: 0;
+        margin-top: 4vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #recuadro-testimonios {
+        width: 70vw;
+        height: 25vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cuadrado1 {
+        width: 65vw;
+        height: 20vw;
+        border-radius: 2vw;
+    }
+
+    #cuadrado2 {
+        width: 65vw;
+        height: 20vw;
+        left: 2vw;
+        top: 1vw;
+        border-radius: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cuadrado2 h2 {
+        font-size: 4vw;
+    }
+
+    .carrusel {
+        width: 80vw;
+        height: auto;
+    }
+
+    .contenedor-testimonios {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonio {
+        width: 58vw;
+        padding: 1.5vw;
+    }
+
+    .imagen {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .nombre-testimonio {
+        font-size: 2vw;
+    }
+
+    .valoracion-testimonio {
+        font-size: 2vw;
+    }
+
+    .texto-testimonio {
+        font-size: 1.8vw;
+    }
+
+    .punto {
+        height: 0.6vw;
+        width: 0.6vw;
+    }
+
+    .controles {
+        position: static;
+        transform: none;
+        margin-top: 4vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #seccion-testimonios {
+        padding: 6vw;
+    }
+
+    #recuadro-testimonios {
+        width: 90vw;
+        height: 30vw;
+    }
+
+    #cuadrado1,
+    #cuadrado2 {
+        width: 90vw;
+        height: 30vw;
+    }
+
+    #texto {
+        font-size: 6vw;
+    }
+
+    h2#titulo {
+        font-size: 1.5rem;
+    }
+
+    .carrusel {
+        width: 90vw;
+        height: auto;
+    }
+
+    .testimonio {
+        width: 70vw;
+        padding: 6vw;
+    }
+
+    .nombre-testimonio {
+        font-size: 4vw;
+    }
+
+    .valoracion-testimonio {
+        font-size: 3.6vw;
+    }
+
+    .texto-testimonio {
+        font-size: 3.2vw;
+    }
+
+    .imagen {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .punto {
+        height: 2vw;
+        width: 2vw;
+    }
+}
