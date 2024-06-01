@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NutriViandas - Menu Semanal</title>
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
   </head>
 
   <body>
+    <header>
+      <div class="div-header">
+        <div>
+          <img class="img-nav" src="../img/logoNutriViandas.png" alt="logo" />
+        </div>
+        <nav class="nav-principal">
+          <ul class="ul-nav">
+            <li class="li-principal"><a class="a-nav" href="./home.html">Home</a></li>
+            <li class="li-principal"><a class="a-nav" href="./pages/menu.html">Menu Semanal</a></li>
+            <li class="li-principal"><a class="a-nav" href="./index.html">Sobre Nosotros</a></li>
+            <li class="li-principal"><a class="a-nav" href="./pages/registro.html">Registro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <h1 class="titulo-principal">Menú semanal</h1>
     <nav class="nav">
       <ul class="nav-lista">
@@ -24,6 +39,27 @@
     <section class="contenedor">
       <div class="lista-cards"></div>
     </section>
+
+    <footer>
+      <div class="footer_box">
+          <div class="box">
+              <h4 class="footer_h">Telefono</h4>
+              <h5 class="footer_h">(011)12345678</h5>
+              <i class="fa-solid fa-square-phone"></i>
+          </div>
+          <div class="box">
+              <h4 class="footer_h">Correo</h4>
+              <h5 class="footer_h">nviandas@gmail.com</h5>
+              <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="box">
+              <h4 class="footer_h">Horario</h4>
+              <h5 class="footer_h">Lunes a Viernes</h5>
+              <h5 class="footer_h">08:00hs a 20:00hs</h5>
+              <i class="fa-solid fa-clock"></i>
+          </div>
+      </div>
+  </footer>
     <script src="../js/main.js"></script>
   </body>
 </html>

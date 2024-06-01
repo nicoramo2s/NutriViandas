@@ -24,13 +24,23 @@ const comidas = [
   },
   {
     id: 3,
+    nombre: "Arroz con Pollo",
+    urlImagen:
+      "https://imgs.search.brave.com/rLNJCrbiLuru9PJdE2FFiT0_iKrWb4s8upyMFQn4hfM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGl2aW5hY29jaW5h/LmVzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE1LzAyL2Fycm96/LXBvbGxvLWZhY2ls/LXJhcGlkby1ILmpw/Zw",
+    descripcion:
+      "Saborea la perfección con nuestro exquisito Arroz con Pollo: una experiencia culinaria que combina la suavidad del arroz de calidad con una irresistible caldo de pollo. Disfruta de la simplicidad y la exquisitez en cada bocado.",
+    precio: 3000,
+    diaDeLaSemana: "miercoles",
+  },
+  {
+    id: 4,
     nombre: "Tallarines",
     urlImagen:
       "https://imgs.search.brave.com/bJZ5LLsurWZi6AUvLzVxob2KT8VrGDL8z253ZioMC8U/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jaGV3/aW5naGFwcGluZXNz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wOC9UYWxs/YXJpbi1Sb2pvLmpw/Zw",
     descripcion:
       "Saborea la perfección con nuestros exquisitos tallarines: una experiencia culinaria que combina la suavidad de la pasta fresca con una irresistible salsa casera. Disfruta de la simplicidad y la exquisitez en cada bocado.",
     precio: 3000,
-    diaDeLaSemana: "miercoles",
+    diaDeLaSemana: "jueves",
   },
   {
     id: 5,
