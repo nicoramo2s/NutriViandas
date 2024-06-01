@@ -1,0 +1,218 @@
+*{
+    margin: 3px;
+    padding: 3px;
+    background-color: #fcfbfc;
+}
+
+body{
+    text-align: center;
+    font-family:sans-serif; 
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    margin: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+li {
+    margin: 0 30px;
+    color: #ffebec;
+}
+
+.a-nav:hover {
+    color: #f14948;
+}
+
+.ul-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.a-nav {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #b1a9a9;
+}
+
+.img-nav {
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+
+h1{
+    color:#ffa2a2;
+    font-size: 45px;
+    margin-bottom: 25px;
+}    
+
+h2{
+    color: #593433;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+h3{
+    color:#593433;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contenido-general{
+    display: flex;
+}
+
+.cont-img-plato {
+    display: flex;
+    justify-content: right;
+}
+
+.foto{
+    justify-content: right;
+}
+   
+.boton-ms{
+    display: inline;
+    background-color:#f14948;
+    color:#fcfbfc;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+.cont-plato h4{
+    color:#593433;
+    align-items:center;
+    right: 70px;;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: #ffebec;
+}
+
+.plato{
+    background-color: #ffebec;
+    border-radius: 20px;
+}
+
+.cont-plato h5{
+    color: #593433;
+    align-items: center;
+    font-size: 25px;
+    background-color: #ffebec;
+}
+
+.cont-plato h6{
+    color: #f14948;
+    font-size: 20px;
+    text-align: right;
+    background-color: #ffebec;
+}
+
+.comida{
+    background-color: #ffebec;
+}
+
+p{
+    color: #593433;
+    font-size: 18px;
+    background-color: #ffebec;
+    margin: 40px;
+}
+
+.referencia{
+    background-color: #ffebec;
+}
+
+.cont-plato{
+    display: flex;
+    background-color:#ffebec;
+    border-radius: 50px;
+}
+
+.cont-central{
+    background-color: #ffebec;
+    border-radius: 40px;
+}
+
+.cont-imagen{
+    background-color: #ffebec;
+    border-radius: 30px;
+}
+
+.boton{
+    background-color: #ffebec;
+    border-radius: 30px;
+    
+    
+}
+
+.foto1{
+    width: 300px;
+    height:300px;
+    justify-content: left;
+    background-color: #f14948;
+    clip-path: ellipse(45% 25%);
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+}
+
+.box {
+    
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border-color:#593433;
+    border-width: 2px;
+    border-style: none;
+    margin: 5px;
+    border-radius: 4px;
+    font-style:italic ;
+    color: var(--colorTextos);
+    font-size: 15px;
+}
+
+.footer_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: linear-gradient(to right, #E29587, #D66D75);
+}
+
+.footer_h {
+    margin: 5px;
+}
+
+
+
+

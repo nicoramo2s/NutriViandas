@@ -1,0 +1,393 @@
+@import url(style-general.css);
+
+:root {
+    --colorTextos: #593433;
+}
+
+*, 
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background:  #ffebec #ffa2a2;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.3em;
+}
+
+form {
+    background: #ffa2a2;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 gray;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: 10px;
+
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+.form .etiquet {
+    position: relative;
+    margin: 20px;
+}
+
+.entrada {
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+.entrada:focus {
+    outline: none;
+    color: #5e5d5d;
+}
+
+.etiqueta {
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+.entrada:focus ~ .etiqueta, .entrada:valid ~ .etiqueta {
+    top: -14px;
+    font-size: 12px;
+    color:#f14948;
+}
+
+.barra {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #E29587, #D66D75);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+.entrada:focus ~ .barra::before {
+    width: 100%;
+}
+
+.checkbox {
+    padding: 10px 10px 10px 5px;
+}
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+}
+
+#file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorTextos);
+    background-color:#b1686e ;
+    display: inline-block;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 105px;
+}
+
+.file-label:hover {
+    background-color:#ffa2a2;
+}
+
+.file-name {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.select {
+    padding: 10px 10px 10px 5px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(to right, #E29587, #D66D75);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+/*footer*/
+
+ footer {
+    width: 100%;
+}
+
+.box {
+    
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border-color:#593433;
+    border-width: 2px;
+    border-style: none;
+    margin: 5px;
+    border-radius: 4px;
+    font-style:italic ;
+    color: var(--colorTextos);
+    font-size: 15px;
+}
+
+.footer_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: linear-gradient(to right, #E29587, #D66D75);
+}
+
+.footer_h {
+    margin: 5px;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+}
+
+nav {
+    margin: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+li {
+    margin: 0 30px;
+    color: #ffebec;
+}
+
+
+
+.a-nav:hover {
+    color: #f14948;
+}
+
+.ul-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: #b1a9a9;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.img-nav {
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Responsive */
+
+/* Pc Escritorio*/
+@media (max-width: 1200px) {
+    .ul-nav {
+        justify-content: center;
+    }
+
+    .div-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 20px;
+    }
+
+    .form .etiquet {
+        margin: 30px;
+    }
+
+    .footer_box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 30%;
+        margin: 10px 0;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .ul-nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffebec;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav.active .ul-nav {
+        display: flex;
+    }
+
+    .div-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form .etiquet {
+        margin: 20px;
+    }
+
+    .footer_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .img-nav {
+        width: 80px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .img-nav {
+        width: 60px;
+    }
+
+    .titulo h1 {
+        font-size: 1.2em;
+    }
+
+    .form {
+        padding: 20px 0;
+    }
+
+    .form .etiquet {
+        margin: 10px;
+    }
+
+    button {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ul-nav {
+        align-items: flex-start;
+    }
+
+    li {
+        margin: 5px 0;
+    }
+}

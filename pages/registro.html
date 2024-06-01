@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/registro.css">
+    <script src="https://kit.fontawesome.com/262caed5e1.js" crossorigin="anonymous"></script>
+    <script src="../js/registro.js"></script>
+    <title>Registro</title>
+</head>
+<body>
+<header>
+    <div class="div-header">
+        <div>
+            <img class="img-nav" src="../img/logoNutriViandas.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="ul-nav">
+                <li><a class="a-nav" href="../home.html">Home</a></li>
+                <li><a class="a-nav" href="./menu.html">Menu Semanal</a></li>
+                <li><a class="a-nav" href="../index.html">Sobre Nosotros</a></li>
+                <li><a class="a-nav" href="./registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section>
+        <form method="post" id="form">
+            <div class="titulo" >
+                <h1>Registrate</h1>
+            </div>
+            <div class="form">
+                
+                <div class="etiquet">
+                    <input class="entrada" type="text" name="nombre" id="nombre" required>
+                    <span class="barra"></span>
+                    <label class="etiqueta" for="nombre">Nombre</label>
+                </div>
+                <div class="etiquet">
+                    <input class="entrada" type="text" name="apellido" id="apellido" required>
+                    <span class="barra"></span>
+                    <label class="etiqueta" for="apellido">Apellido</label>
+                </div>
+                <div class="etiquet">
+                    <input class="entrada" type="email" name="email" id="email" required>
+                    <span class="barra"></span>
+                    <label class="etiqueta" for="email">Email</label>
+                </div>
+                <div class="etiquet checkbox">
+                    <input type="checkbox" id="semanal" name="semanal" value="si">
+                    <label for="semanal"> ¿Queres recibir nuestras recetas?</label>
+                    <div id="checkbox-error" class="error-message"></div>
+                </div>
+                <div class="etiquet select">
+                    <label for="recetas">Recetas:</label>
+                    <select id="recetas" name="recetas">
+                        <option value="">Elegir opción</option>
+                        <option value="pasteleria">Pastelería</option>
+                        <option value="aperitivos">Aperitivos</option>
+                        <option value="ambos">Ambos</option>
+                    </select>
+                    <div id="select-error" class="error-message"></div>
+                </div>
+                <div class="file-upload">
+                    <input type="file" id="file-input">
+                    <label for="file-input" class="file-label">Foto de Perfil</label>
+                    <span id="file-name" class="file-name"></span>
+                </div>
+                <button type="submit" name="enviar" id="enviar"><p>Suscribirme</p></button>
+            </div>    
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="footer_box">
+        <div class="box">
+            <h4 class="footer_h">Telefono</h4>
+            <h5 class="footer_h">(011)12345678</h5>
+            <i class="fa-solid fa-square-phone"></i>
+        </div>
+        <div class="box">
+            <h4 class="footer_h">Correo</h4>
+            <h5 class="footer_h">nviandas@gmail.com</h5>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="box">
+            <h4 class="footer_h">Horario</h4>
+            <h5 class="footer_h">Lunes a Viernes</h5>
+            <h5 class="footer_h">08:00hs a 20:00hs</h5>
+            <i class="fa-solid fa-clock"></i>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
