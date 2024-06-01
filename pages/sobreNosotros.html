@@ -5,45 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriViandas</title>
-    <link rel="stylesheet" href="styles/style-general.css">
-    <link rel="stylesheet" href="styles/style-sobreNosotros.css">
-    <link rel="stylesheet" href="styles/style-PorQueElegirnos.css">
+    <link rel="stylesheet" href="../styles/style-general.css">
+    <link rel="stylesheet" href="../styles/style-sobreNosotros.css">
+    <link rel="stylesheet" href="../styles/style-PorQueElegirnos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/style-testimonios.css">
+    <link rel="stylesheet" href="../styles/style-testimonios.css">
+    <link rel="stylesheet" href="../styles/registro.css">
+
 </head>
 
 <body>
+    <header>
+        <div class="div-header">
+            <div>
+                <img class="img-nav" src="../img/logoNutriViandas.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="ul-nav">
+                    <li><a class="a-nav" href="../home.html">Home</a></li>
+                    <li><a class="a-nav" href="./menu.html">Menu Semanal</a></li>
+                    <li><a class="a-nav" href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a class="a-nav" href="./registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <section class="sobreNosotros">
         <div class="container">
             <div class="text">
                 <h1>Sobre nosotros</h1>
-                <p>En NutriViandas, creemos que comer bien no debe ser una tarea difícil. Nuestro objetivo es hacerte la vida más fácil, brindándote la oportunidad de disfrutar de sabores increíbles sin tener que pasar horas en la cocina. Nos encargamos de la planificación, la preparación y la entrega, para que puedas dedicar más tiempo a las cosas que realmente importan en tu vida.</p>
+                <p>En NutriViandas, creemos que comer bien no debe ser una tarea difícil. Nuestro objetivo es hacerte la
+                    vida más fácil, brindándote la oportunidad de disfrutar de sabores increíbles sin tener que pasar
+                    horas en la cocina. Nos encargamos de la planificación, la preparación y la entrega, para que puedas
+                    dedicar más tiempo a las cosas que realmente importan en tu vida.</p>
             </div>
             <div class="imagen-sobreNosotros">
-                <img src="img/ImagenPlatos.png" alt="Deliciosas viandas">
+                <img src="../img/ImagenPlatos.png" alt="Deliciosas viandas">
             </div>
-        </div>        
+        </div>
     </section>
 
     <section class="PorQueElegirnos">
         <h1>¿Por qué elegirnos?</h1>
         <div class="contenedor-motivos">
             <div class="motivo">
-                <div id="icono-contenedor">
+                <div class="icono-contenedor">
                     <i class="fa-solid fa-bowl-food"></i>
                 </div>
                 <h3>Comida fresca</h3>
                 <p>Ingredientes frescos y de alta calidad en todas nuestras preparaciones</p>
             </div>
             <div class="motivo">
-                <div id="icono-contenedor">
+                <div class="icono-contenedor">
                     <i class="fa-solid fa-utensils"></i>
                 </div>
                 <h3>Variedad</h3>
                 <p>Ofrecemos una amplia variedad de platos en nuestro menú semanal</p>
             </div>
             <div class="motivo">
-                <div id="icono-contenedor">
+                <div class="icono-contenedor">
                     <i class="fa-solid fa-truck-fast"></i>
                 </div>
                 <h3>Entrega rápida</h3>
@@ -76,7 +97,7 @@
                     <div class="testimonio">
                         <div class="cabecera-testimonio">
                             <div class="icono">
-                                <img class="imagen" src="img/Persona1.jpg" alt="Imagen de cliente">
+                                <img class="imagen" src="../img/Persona1.jpg" alt="Imagen de cliente">
                             </div>
                             <div class="nombre-valoracion-testimonio">
                                 <div class="nombre-testimonio">Julio Ponce</div>
@@ -91,7 +112,7 @@
                     <div class="testimonio">
                         <div class="cabecera-testimonio">
                             <div class="icono">
-                                <img class="imagen" src="img/Persona2.jpg" alt="Imagen de cliente">
+                                <img class="imagen" src="../img/Persona2.jpg" alt="Imagen de cliente">
                             </div>
                             <div class="nombre-valoracion-testimonio">
                                 <div class="nombre-testimonio">Martin López</div>
@@ -106,7 +127,7 @@
                     <div class="testimonio">
                         <div class="cabecera-testimonio">
                             <div class="icono">
-                                <img class="imagen" src="img/Persona3.jpg" alt="Imagen de cliente">
+                                <img class="imagen" src="../img/Persona3.jpg" alt="Imagen de cliente">
                             </div>
                             <div class="nombre-valoracion-testimonio">
                                 <div class="nombre-testimonio">Candela Andrade</div>
@@ -128,9 +149,30 @@
                 </div>
             </div>
 
-            <script src="js/main-SobreNosotros.js"></script>
+            <script src="../js/main-SobreNosotros.js"></script>
         </div>
     </section>
+
+    <footer>
+        <div class="footer_box">
+            <div class="box">
+                <h4 class="footer_h">Telefono</h4>
+                <h5 class="footer_h">(011)12345678</h5>
+                <i class="fa-solid fa-square-phone"></i>
+            </div>
+            <div class="box">
+                <h4 class="footer_h">Correo</h4>
+                <h5 class="footer_h">nviandas@gmail.com</h5>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="box">
+                <h4 class="footer_h">Horario</h4>
+                <h5 class="footer_h">Lunes a Viernes</h5>
+                <h5 class="footer_h">08:00hs a 20:00hs</h5>
+                <i class="fa-solid fa-clock"></i>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

@@ -41,7 +41,7 @@
     gap: 10px; 
 }
 
-#icono-contenedor {
+.icono-contenedor {
     width: 5vw;
     height: 5vw;
     background-color: #ff4d4d;
@@ -111,7 +111,7 @@
         width: 50%;
     }
 
-    #icono-contenedor {
+    .icono-contenedor {
         width: 8vw;
         height: 8vw;
     }
